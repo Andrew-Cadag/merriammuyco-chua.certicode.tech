@@ -1,0 +1,72 @@
+@import "tailwindcss";
+@plugin "daisyui";
+@plugin "daisyui" {
+  themes: light --default, dark --prefersdark, cupcake;
+}
+
+* {
+  transition-property: all;
+  transition-timing-function: var(
+    --tw-ease,
+    var(--default-transition-timing-function)
+  );
+  transition-duration: var(--tw-duration, var(--default-transition-duration));
+  --tw-duration: 200ms;
+  transition-duration: 200ms;
+}
+
+@theme {
+  --breakpoint-xxs: 21.25rem; /* COMMENT: 340px */
+  --breakpoint-xs: 23.125rem; /* COMMENT: 363px */
+  --breakpoint-xxl: 82.5rem; /* COMMENT: 1320px */
+  --color-picto-primary: #002F6C;
+  --color-picto-primary-dark: #001A3A;
+  --color-picto-secondary: #D4AF37;
+  --color-picto-secondary-dark: #B8941F;
+  --color-soft-white: #F8FAFC;
+  --color-soft-dark: #64748B;
+  --color-accent-blue: #1E40AF;
+  --color-light-blue: #3B82F6;
+  --color-gold-light: #FEF3C7;
+}
+
+.btn-primary {
+  @apply bg-picto-primary border-0 text-white hover:scale-[102%] hover:bg-picto-primary-dark transition-all duration-500;
+}
+
+body {
+  font-family: "Work Sans", sans-serif;
+}
+
+#root {
+  background: url("./src/assets/images/backgroundimg.png") center / cover no-repeat fixed;
+  min-height: 100vh;
+}
+
+.content {
+  @apply max-xxl:w-full xxl:max-w-[1320px] xxl:mx-auto;
+}
+
+.section-title {
+  @apply md:font-semibold text-3xl sm:text-4xl md:text-5xl font-medium;
+}
+
+.center {
+  @apply flex justify-center items-center;
+}
+
+.animated-grid-bg {
+  background: url("./src/assets/images/backgroundimg.png") center / cover no-repeat fixed;
+}
+
+.introduction-profile-background {
+  background: url("./src/assets/images/backgroundimg.png") center / cover no-repeat fixed;
+}
+
+.blog-background {
+  background: url("./src/assets/images/backgroundimg.png") center / cover no-repeat fixed;
+}
+
+html {
+  scroll-behavior: smooth;
+}

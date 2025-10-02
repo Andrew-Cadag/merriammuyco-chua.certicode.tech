@@ -27,15 +27,16 @@ const menu = navItems.map((item) => (
       spy={true}
       offset={-140}
       activeStyle={{
-        backgroundColor: "#002F6C",
-        color: "white",
+        backgroundColor: "#8B5E3C", 
+        color: "#FFF8F0",          
       }}
-      className={`text-white hover:text-blue-300 px-5 py-3 mx-1 transition-colors duration-200`}
+      className={`text-[#8B5E3C] hover:text-[#D9A05B] px-5 py-3 mx-1 transition-colors duration-200`}
     >
       {item.name}
     </Link>
   </li>
 ));
+
 
 const NavBar = () => {
   const [position, setPosition] = useState(0);
@@ -53,10 +54,12 @@ const NavBar = () => {
   return (
     <div
       className={`sticky top-0 ${
-        position > 50
-          ? "bg-gray-900/90 backdrop-blur-md border-b border-gray-700"
-          : "bg-picto-primary-dark/98 backdrop-blur-sm border-picto-primary-dark"
-      } z-50 transition-all duration-1000`}
+  position > 50
+    ? "bg-white/95 backdrop-blur-md shadow-md"
+    : "bg-white/0"
+} z-50 transition-all duration-1000`}
+
+
     >
       <div className="navbar flex justify-between mx-auto content">
         <div className="flex items-center justify-between">
@@ -93,7 +96,7 @@ const NavBar = () => {
             className="flex items-center border-0 lg:max-xxl:ps-5"
           >
             <img src={logo} className="h-8 sm:h-14 rounded-2xl" alt="logo" />
-            <p className="text-2xl sm:text-[32px] my-auto ms-[12px] font-semibold text-white">
+            <p className="text-2xl sm:text-[32px] my-auto ms-[12px] font-semibold text-picto-primary-dark">
               Tom.AppDev
             </p>
           </Link>
@@ -105,14 +108,16 @@ const NavBar = () => {
           </ul>
           <p className="">
             <Link
-              className="btn btn-sm xs:btn-md sm:btn-lg btn-primary"
-              href="#contact"
-              to={`contact`}
-              smooth={true}
-              duration={300}
-            >
-              Contact
-            </Link>
+            className="btn btn-sm xs:btn-md sm:btn-lg btn-primary"
+            href="#contact"
+            to="contact"
+            smooth={true}
+            duration={300}
+            style={{ backgroundColor: '#D9A05B', color: '#FFF8F0' }} 
+          >
+            Contact
+          </Link>
+
           </p>
         </div>
       </div>

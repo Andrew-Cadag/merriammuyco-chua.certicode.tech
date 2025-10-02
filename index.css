@@ -16,39 +16,59 @@
 }
 
 @theme {
-  --breakpoint-xxs: 21.25rem; /* COMMENT: 340px */
-  --breakpoint-xs: 23.125rem; /* COMMENT: 363px */
-  --breakpoint-xxl: 82.5rem; /* COMMENT: 1320px */
-  --color-picto-primary: #002F6C;
-  --color-picto-primary-dark: #001A3A;
-  --color-picto-secondary: #D4AF37;
-  --color-picto-secondary-dark: #B8941F;
-  --color-soft-white: #F8FAFC;
-  --color-soft-dark: #64748B;
+  --breakpoint-xxs: 21.25rem; 
+  --breakpoint-xs: 23.125rem; 
+  --breakpoint-xxl: 82.5rem; 
+  --color-picto-primary: #8B5E3C; 
+  --color-picto-primary-dark: #5C3B25;
+  --color-picto-secondary: #D2B48C;
+  --color-picto-secondary-dark: #BFA06A;
+  --color-soft-white: #FFF8F0; 
+  --color-soft-dark: #A1887F; 
+  --color-accent-blush: #FADADD; 
+  --color-caramel: #D9A05B;
+  --color-beige: #F5F5DC;
   --color-accent-blue: #1E40AF;
   --color-light-blue: #3B82F6;
   --color-gold-light: #FEF3C7;
 }
 
+
 .btn-primary {
-  @apply bg-picto-primary border-0 text-white hover:scale-[102%] hover:bg-picto-primary-dark transition-all duration-500;
+  background-color: rgb(217, 160, 91);
+  color: rgb(255, 248, 240);
+  border: none;
+  transition: all 0.5s;
+}
+.btn-primary:hover {
+  background-color: var(--color-picto-secondary);
+  transform: scale(1.02);
 }
 
 body {
   font-family: "Work Sans", sans-serif;
+  background-color: var(--color-soft-white); 
+  color: var(--color-soft-dark); 
 }
 
-#root {
-  background: url("./src/assets/images/backgroundimg.png") center / cover no-repeat fixed;
-  min-height: 100vh;
+#root,
+.animated-grid-bg,
+.introduction-profile-background,
+.blog-background {
+  background: linear-gradient(
+      rgba(255, 248, 240, 0.85), 
+      rgba(255, 248, 240, 0.85)
+    ),
+    url("./src/assets/images/background.webp") center / cover no-repeat fixed;
 }
+
 
 .content {
   @apply max-xxl:w-full xxl:max-w-[1320px] xxl:mx-auto;
 }
 
 .section-title {
-  @apply md:font-semibold text-3xl sm:text-4xl md:text-5xl font-medium;
+  @apply md:font-semibold text-3xl sm:text-4xl md:text-5xl font-medium text-[#8B5E3C];
 }
 
 .center {
@@ -56,15 +76,15 @@ body {
 }
 
 .animated-grid-bg {
-  background: url("./src/assets/images/backgroundimg.png") center / cover no-repeat fixed;
+  background: url("./src/assets/images/background.webp") center / cover no-repeat fixed;
 }
 
 .introduction-profile-background {
-  background: url("./src/assets/images/backgroundimg.png") center / cover no-repeat fixed;
+  background: url("./src/assets/images/background.webp") center / cover no-repeat fixed;
 }
 
 .blog-background {
-  background: url("./src/assets/images/backgroundimg.png") center / cover no-repeat fixed;
+  background: url("./src/assets/images/background.webp") center / cover no-repeat fixed;
 }
 
 html {

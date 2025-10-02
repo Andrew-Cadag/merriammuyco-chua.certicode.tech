@@ -24,10 +24,10 @@ const Address = ({ item }) => {
         />
       </div>
       <div className="ms-3.25">
-        <p className="text-[12px] md:text-[14px] text-[#64748B] font-normal">
+        <p className="text-[12px] md:text-[14px] text-picto-secondary-dark font-normal">
           {item?.title}:
         </p>
-        <p className="text-[14px] md:text-[16px] text-[#002F6C] font-medium">
+        <p className="text-[14px] md:text-[16px] text-picto-primary font-medium">
           {item?.description}
         </p>
       </div>

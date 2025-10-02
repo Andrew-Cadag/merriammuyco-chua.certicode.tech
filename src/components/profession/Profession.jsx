@@ -65,6 +65,7 @@ const Profession = () => {
           smooth={true}
           duration={300}
           className="mt-5 md:mt-0 btn btn-primary text-white w-fit md:py-3 md:px-6 text-[12px] sm:text-[16px] font-semibold max-md:mx-auto flex-shrink-0"
+          style={{ backgroundColor: "rgb(217, 160, 91)", color: "rgb(255, 248, 240)" }}
         >
           Say Hello!
         </Link>

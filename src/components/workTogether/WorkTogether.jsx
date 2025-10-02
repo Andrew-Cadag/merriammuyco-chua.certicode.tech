@@ -15,6 +15,7 @@ const WorkTogether = () => {
         <a
           href="#contact"
           className="btn btn-primary px-4 md:px-6.5 py-3 md:py-6 text-[12px] md:text-[16px]"
+          style={{ backgroundColor: "rgb(217, 160, 91)", color: "rgb(255, 248, 240)" }}
         >
           Let's work Together
           <FontAwesomeIcon

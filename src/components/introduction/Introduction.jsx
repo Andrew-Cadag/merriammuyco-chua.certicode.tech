@@ -1,4 +1,4 @@
-import person from "../../assets/images/person.png";
+import person from "../../assets/images/Merriam1.png";
 import "./introduction.css";
 import InformationSummary from "./InformationSummary";
 import { Link } from "react-scroll";
@@ -57,32 +57,33 @@ const Introduction = () => {
       <div className="space-y-8 lg:order-1">
         <div className="space-y-4">
           <p className="text-lg text-white font-medium">I'm</p>
-          <h1 className="text-4xl lg:text-6xl font-bold text-white leading-tight">
-            Tom Oliver Chua
+          <h1 className="text-4xl lg:text-5xl font-bold text-white leading-tight">
+            Merriam Muyco Chua
           </h1>
-          <p className="text-lg lg:text-xl text-blue-300 font-medium h-8 flex items-center">
+          <p className="text-lg lg:text-xl text-picto-primary font-medium h-8 flex items-center">
             {displayedText}
             <span className="animate-pulse ml-1">|</span>
           </p>
         </div>
 
         <div className="space-y-3">
-          <p className="text-base lg:text-lg text-white leading-relaxed max-w-lg">
-            I build user-centric systems for web and mobile, combining
-            <strong> application architecture</strong>, 
-            <strong> backend & mobile development</strong>, and 
-            <strong> AI</strong> to deliver secure, scalable products.
+          <p className="text-base lg:text-lg text-[#8B5E3C] leading-relaxed max-w-lg">
+            I bring a rare blend of hands-on <strong>IT expertise</strong>, proven <strong>Quality
+            Assurance experience</strong>, and <strong>strong teaching/mentorship
+            skills</strong>. 
           </p>
-          <p className="text-base lg:text-lg text-white leading-relaxed max-w-lg bg-black/30 backdrop-blur-sm px-4 py-2 rounded-lg">
-            I lead teams and ship reliably from idea to launch.
+          <p className="text-base lg:text-lg text-[white] leading-relaxed max-w-lg mt-4">
+            <strong>I’m adaptable, process-driven, and
+            committed to delivering reliable, user-focused software while
+            supporting continuous improvement.</strong>
           </p>
         </div>
 
         <div className="flex items-start">
           <a
-            href="/Tom Oliver Chua Resume.pdf"
-            download="Tom Oliver Chua Resume.pdf"
-            className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 rounded-lg font-semibold transition-colors duration-200 inline-block"
+            href="/Merriam Muyco Chua Resume.pdf"
+            download="Merriam Muyco Chua Resume.pdf"
+            className="bg-[#8B5E3C]/70 hover:bg-[#6C4829]/80 text-white px-8 py-3 rounded-lg font-semibold transition-colors duration-200 inline-block"
           >
             Download CV
           </a>
@@ -92,10 +93,10 @@ const Introduction = () => {
         <div className="grid grid-cols-3 gap-6 pt-8">
           {informationSummaryData.map((item) => (
             <div key={item.id} className="text-center lg:text-left">
-              <div className="text-2xl lg:text-3xl font-bold text-white">
+              <div className="text-2xl lg:text-3xl font-bold text-picto-primary">
                 {item.description}
               </div>
-              <div className="text-sm text-gray-200 mt-1">
+              <div className="text-sm text-picto-primary mt-1">
                 {item.title}
               </div>
             </div>
@@ -113,7 +114,7 @@ const Introduction = () => {
           <img
             className="relative z-10 hero-image"
             src={person}
-            alt="Tom Oliver Chua"
+            alt="Merriam Muyco Chua"
           />
         </div>
       </div>

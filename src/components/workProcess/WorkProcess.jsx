@@ -44,13 +44,16 @@ const WorkProcess = () => {
       <div className="lg:pe-10 xl:pe-35.75 max-xs:mb-3 max-xl:mb-8">
         <p className="section-title max-xl:text-center">Work Process</p>
         <p className="mt-6 mb-4 md:text-[18px] text-sm font-normal max-xl:text-center text-gray-500">
-          Blending design and development, I craft digital experiences that are both intuitive and high-performing. 
-          Credentialed with a Bachelor's in Information Technology, 
-          I’ve specialized in mobile and web app development since 2017, leading the Flutter Developer team at DOT-Ready.
+          Multifaceted IT professional with over 8 years of experience spanning software quality assurance, 
+          web and mobile development, IT instruction, and project management. Skilled in designing intuitive, 
+          high-performing digital solutions while ensuring product reliability through meticulous QA practices.
         </p>
         <p className="mt-6 md:text-[18px] text-sm font-normal max-xl:text-center text-gray-500">
-          Beyond building products, I mentor developers, win hackathons, and foster collaborative teamwork.
-           Driven by design and powered by code, I merge usability with aesthetic precision to create engaging, user-friendly solutions.
+          As a former professor and technical mentor, I bring a strong background in curriculum development 
+          and academic leadership, empowering the next generation of developers. Proven ability to lead 
+          cross-functional teams, manage operations, and align technical outcomes with business goals. 
+          Driven by design, powered by code, and committed to continuous improvement across all areas 
+          of technology and education.
         </p>
       </div>
 

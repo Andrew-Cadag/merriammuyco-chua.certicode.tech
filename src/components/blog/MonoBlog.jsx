@@ -11,7 +11,7 @@ const MonoBlog = ({ data }) => {
           <p className="text-[10px] xs:text-[14px] font-normal text-gray-400 ">
             {data?.date} / {data?.comments} Comments
           </p>
-          <p className="text-[14px] xs:text-lg font-medium text-[#002F6C]">
+          <p className="text-[14px] xs:text-lg font-medium text-[#D2B48C] mt-2.5">
             {data?.title.length > 40
               ? `${data?.title.slice(0, 40)}...`
               : data?.title}

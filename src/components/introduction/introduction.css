@@ -15,31 +15,39 @@
   overflow: visible;
 }
 
-/* Add a subtle platform/base effect */
 .hero-image-container::before {
   content: '';
   position: absolute;
-  bottom: -20px;
+  bottom: 70px;
   left: 50%;
   transform: translateX(-50%);
   width: 70%;
   height: 40px;
-  background: linear-gradient(135deg, rgba(59, 130, 246, 0.08) 0%, rgba(147, 197, 253, 0.15) 50%, rgba(219, 234, 254, 0.08) 100%);
+  background: linear-gradient(
+    135deg,
+    rgba(139, 94, 60, 0.08) 0%,      
+    rgba(210, 180, 140, 0.15) 50%,   
+    rgba(255, 248, 240, 0.08) 100%  
+  );
   border-radius: 50%;
   filter: blur(15px);
   z-index: 5;
 }
 
-/* Add a subtle glow at the bottom */
 .hero-image-container::after {
   content: '';
   position: absolute;
-  bottom: -10px;
+  bottom: 85px;
   left: 50%;
   transform: translateX(-50%);
   width: 50%;
   height: 20px;
-  background: linear-gradient(135deg, rgba(59, 130, 246, 0.2) 0%, rgba(147, 197, 253, 0.3) 50%, rgba(219, 234, 254, 0.2) 100%);
+  background: linear-gradient(
+    135deg,
+    rgba(185, 135, 85, 0.2) 0%,     
+    rgba(210, 180, 140, 0.3) 50%,   
+    rgba(255, 248, 240, 0.2) 100%   
+  );
   border-radius: 50%;
   filter: blur(10px);
   z-index: 6;
@@ -50,10 +58,9 @@
   z-index: 10;
   width: 100% !important;
   height: auto !important;
-  object-fit: cover !important;
-  object-position: top center !important;
-  max-height: 550px;
-  /* Subtle fade at bottom to make crop look intentional */
+  object-fit: contain !important; 
+  top: -100px;
+  max-height: none;
   mask-image: linear-gradient(to bottom, black 85%, rgba(0,0,0,0.8) 95%, transparent 100%);
   -webkit-mask-image: linear-gradient(to bottom, black 85%, rgba(0,0,0,0.8) 95%, transparent 100%);
 }

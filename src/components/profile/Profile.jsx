@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faDownload } from "@fortawesome/free-solid-svg-icons";
 import SocialMedia from "../common/socialMedia/SocialMedia";
 import person1 from "../../assets/images/tomchua.png";
-import person2 from "../../assets/images/tomchua1.jpg";
+import person2 from "../../assets/images/Merriam.jpg";
 
 const Profile = () => {
   return (
@@ -35,26 +35,26 @@ const Profile = () => {
           <h2
             className={`text-2xl xxs:text-3xl sm:text-4xl lg:text-[38px] text-[min(24px,38px)] max-md:text-center font-semibold mb-8`}
           >
-            I am an IT Software Engineer Manager and Mobile Developer
+            Experienced IT Instructor skilled in teaching web
+            development, programming, and IT fundamentals
           </h2>
           <div
             className={`text-xs xs:text-[16px] lg:text-lg font-normal max-md:text-center text-gray-600`}
           >
             <p className={``}>
-              Credentialed with Bachelor's in Information Technology, I've excelled in mobile and web 
-              app development since 2017. Leading the Flutter Developer team at DOT-Ready, I specialize in 
-              cross-platform mobile app creation using Flutter, with expertise in HTML5 and Android.
-               Managing the entire app lifecycle, I ensure seamless design, coding, testing, and deployment. 
-               Alongside technical proficiency, I mentor developers and win hackathons.
-            </p>
-            <p className="mt-3">
-              My commitment to innovation drives me to deliver superior user-centric solutions while fostering collaborative teamwork.
+              My background in software testing, project
+              management, and web development means I can not only
+              spot issues but also <strong>collaborate effectively with developers </strong> 
+              to resolve them.  Strong background in curriculum design, student mentorship, and
+              applying industry practices in the classroom. Certified in
+              Agile and Project Management, with a passion for helping
+              learners gain practical, job-ready skills.
             </p>
           </div>
           <div className="mt-8 flex max-md:justify-center">
             <a
               className="btn xxs:btn-lg px-6 max-xs:px-2 xxs:py-3 btn-primary text-xs xxs:text-[14px] sm:text-[16px]"
-              href="#portfolio"
+              href="#portfolio" style={{ backgroundColor: "rgb(217, 160, 91)", color: "rgba(255, 255, 255, 1)" }}
             >
               My Projects
             </a>

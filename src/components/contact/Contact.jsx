@@ -35,7 +35,7 @@ const Contact = () => {
         <div className="flex flex-col-reverse lg:gap-5 xl:gap-25.75 lg:flex-row justify-between">
           <div>
             <div>
-              <p className="text-[35px] max-lg:hidden font-semibold text-nowrap text-[#002F6C]">
+              <p className="text-[35px] max-lg:hidden font-semibold text-nowrap text-[#D2B48C]">
                 Let’s discuss your Project
               </p>
               <p className="text-[12px] xs:text-[14px] sm:text-lg md:text-lg max-lg:text-center pt-4 font-normal text-soft-dark">

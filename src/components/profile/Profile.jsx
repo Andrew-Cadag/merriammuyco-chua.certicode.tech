@@ -35,20 +35,18 @@ const Profile = () => {
           <h2
             className={`text-2xl xxs:text-3xl sm:text-4xl lg:text-[38px] text-[min(24px,38px)] max-md:text-center font-semibold mb-8`}
           >
-            Experienced IT Instructor skilled in teaching web
-            development, programming, and IT fundamentals
+            Skilled IT Instructor in Web Development, 
+            programming, and Core IT.
           </h2>
           <div
             className={`text-xs xs:text-[16px] lg:text-lg font-normal max-md:text-center text-gray-600`}
           >
             <p className={``}>
-              My background in software testing, project
-              management, and web development means I can not only
-              spot issues but also <strong>collaborate effectively with developers </strong> 
-              to resolve them.  Strong background in curriculum design, student mentorship, and
-              applying industry practices in the classroom. Certified in
-              Agile and Project Management, with a passion for helping
-              learners gain practical, job-ready skills.
+              With extensive experience in software testing, project management, and web development, I bring a veteran’s eye for detail and 
+              a proven ability to work seamlessly with developers to resolve complex issues. 
+              I have a solid track record in curriculum design, student mentorship, and translating real-world industry practices into impactful classroom learning. 
+              Certified in Agile and Project Management, I am dedicated to equipping learners with practical, job-ready skills through rigorous, hands-on instruction.
+.
             </p>
           </div>
           <div className="mt-8 flex max-md:justify-center">

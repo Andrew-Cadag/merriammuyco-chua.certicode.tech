@@ -20,7 +20,7 @@ const Footer = () => {
         <a href="#" className="flex items-center border-0">
           <img src={logo} className="h-8 sm:h-14 rounded-2xl" alt="logo" />
           <p className="text-3xl sm:text-[32px] my-auto ms-[12px] font-semibold">
-            Tom.AppDev
+            Mirriam.AppDev
           </p>
         </a>
 
@@ -43,7 +43,7 @@ const Footer = () => {
       </div>
 
       <p className="text-center max-xs:text-[12px] max-md:text-[14px] w-full py-10">
-        Developed by Oliver Chua
+        Developed by Mirriam Chua
       </p>
     </div>
   );

@@ -16,12 +16,12 @@ const addressData = [
   {
     icon: faEnvelope,
     title: "My Email",
-    description: "chuatomoliver@gmail.com",
+    description: "merriam.muyco96@gmail.com",
   },
   {
     icon: faPhone,
     title: "Call Me Now",
-    description: "+63 9499673244",
+    description: "+63 936 928 8378",
   },
 ];
 

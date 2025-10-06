@@ -9,7 +9,7 @@ const informationSummaryData = [
   {
     id: 1,
     title: "Experience",
-    description: "10 Y.",
+    description: "6 Y.",
   },
   {
     id: 2,
@@ -26,7 +26,7 @@ const informationSummaryData = [
 const Introduction = () => {
   const [displayedText, setDisplayedText] = useState("");
   const [currentIndex, setCurrentIndex] = useState(0);
-  const titles = ["ICT Head", "Solutions Architect", "Full-Stack Developer"];
+  const titles = ["IT Specialist", "Web Instructor", "Project Manager"];
   const [titleIndex, setTitleIndex] = useState(0);
 
   useEffect(() => {
@@ -81,8 +81,8 @@ const Introduction = () => {
 
         <div className="flex items-start">
           <a
-            href="/Merriam Muyco Chua Resume.pdf"
-            download="Merriam Muyco Chua Resume.pdf"
+            href="/Merriam-Muyco-Chua.pdf"
+            download="Merriam-Muyco-Chua.pdf"
             className="bg-[#8B5E3C]/70 hover:bg-[#6C4829]/80 text-white px-8 py-3 rounded-lg font-semibold transition-colors duration-200 inline-block"
           >
             Download CV

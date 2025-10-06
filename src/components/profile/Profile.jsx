@@ -1,8 +1,7 @@
-import person from "../../assets/images/person2.png";
+
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faDownload } from "@fortawesome/free-solid-svg-icons";
 import SocialMedia from "../common/socialMedia/SocialMedia";
-import person1 from "../../assets/images/tomchua.png";
 import person2 from "../../assets/images/Merriam.jpg";
 
 const Profile = () => {

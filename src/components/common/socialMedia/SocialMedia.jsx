@@ -7,7 +7,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const socialIcons = [
   { icon: faFacebookF, link: "https://www.facebook.com/chuatomoliver", target: "_blank" },
-  { icon: faLinkedin, link: "https://www.linkedin.com/in/tom-oliver-chua-clswb-pmp-414bba144/", target: "_blank" },
+  { icon: faLinkedin, link: "https://www.linkedin.com/in/merriam-chua-48b7a223b/?fbclid=IwY2xjawNIS11leHRuA2FlbQIxMABicmlkETFtOUlkMHFGTTNST2p1OEhYAR7x7cC8MK-0KwpR5WjxVpWwojuHZtCJCKbpQ8GfkWDnQPSeQv7DkVEMo4sebQ_aem_zvYTQ4JGmQVfYhewMB8Pyg", target: "_blank" },
   { icon: faChrome, link: "https://www.certicode.tech/", target: "_blank" },
 ];
 

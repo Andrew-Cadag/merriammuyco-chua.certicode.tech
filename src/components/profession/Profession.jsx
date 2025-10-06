@@ -4,39 +4,39 @@ import { Link } from "react-scroll";
 const rolesData = [
   {
     id: 1,
-    title: "Application Architecture & Leadership",
+    title: "Quality Assurance (QA) & Software Testing",
     description:
-      "I design scalable systems and RESTful APIs, set best practices, lead agile sprints, code reviews, and CI/CD with Azure DevOps/GitHub Actions. Focus on quality, performance, security, and usability across teams.",
+      "I specialize in Quality Assurance (QA) and Software Testing, with hands-on experience ensuring software products meet high standards of functionality, reliability, and user satisfaction. I take a methodical approach to identifying bugs, improving testing processes, and collaborating closely with developers to deliver clean, efficient, and dependable code.",
   },
   {
     id: 2,
-    title: "Mobile App Development (Android · iOS · Flutter/KMM)",
+    title: "Web Development (Frontend)",
     description:
-      "I build high-quality Android (Kotlin) and iOS (SwiftUI) apps, plus cross-platform with Flutter/KMM. Integrate Firebase, analytics, payments, and deploy to Google Play/App Store with robust testing and release pipelines.",
+      "I’m a front-end developer with a strong foundation in HTML, CSS, and JavaScript, combined with a working knowledge of basic server-side concepts. I focus on creating clean, responsive, and accessible web interfaces that deliver great user experiences across all devices and browsers. I enjoy turning design concepts into functional, interactive websites using core front-end technologies",
   },
   {
     id: 3,
-    title: "Web, APIs, Cloud & DevOps",
+    title: "Project Management & Agile Practices",
     description:
-      "I develop modern web apps (Laravel/Node/React), secure APIs, and manage cloud infra on AWS, Azure, and IBM Cloud (NGINX, PostgreSQL/MySQL, S3/EC2). Automate deployments and monitoring with container-ready setups.",
+      "I bring a strong background in Project Management and Agile Practices, with a focus on delivering value-driven results, fostering team collaboration, and adapting quickly to changing priorities. I’ve led and supported projects through their full lifecycle—planning, execution, monitoring, and delivery—while aligning closely with business goals and stakeholder expectations.",
   },
   {
     id: 4,
-    title: "Developer Team Lead",
+    title: "Training & Mentorship",
     description:
-      "Spearheaded the end-to-end development of transformative AI solutions, most notably an AI-powered digital platform for Mitsubishi Bank. Led cross-functional teams in requirements gathering, architecture design, model development, ensuring scalability, security, and compliance with financial industry standards.",
+      "I have a passion for sharing knowledge and empowering others. I’ve developed and delivered training programs on software testing best practices, QA methodologies, and effective bug reporting. My mentorship approach focuses on hands-on guidance, fostering a growth mindset, and building confidence in technical skills.",
   },
   {
     id: 5,
-    title: "App Deployment",
+    title: "IT Support",
     description:
-      "We provide end-to-end app deployment services across AWS, DigitalOcean, and Hostinger for web applications, as well as Google Play and the Apple App Store for mobile applications.",
+      "We provide end-to-end IT support services, ensuring smooth operation and maintenance of web systems. Our team is skilled in troubleshooting, system administration, and user support, helping organizations to optimize their IT infrastructure and enhance productivity.",
   },
   {
     id: 6,
-    title: "Project Manager",
+    title: "Website and Application Support",
     description:
-      "Successfully managed the full project lifecycle of innovative AI initiatives, overseeing planning, execution, and delivery of an AI digital platform for Mitsubishi Bank that enhanced operational efficiency and elevated customer experience.",
+      "I provide website and application support with hands-on experience using platforms like Wix, WordPress, Flutter, and Android Studio. I’ve worked on building, maintaining, and updating both websites and mobile applications, focusing on functionality, user experience, and ongoing technical support.",
   },
 ];
 

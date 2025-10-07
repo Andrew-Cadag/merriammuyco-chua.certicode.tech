@@ -19,29 +19,6 @@ import card15 from "../../assets/images/portfolio-images/OtherProject3.png";
 const projectData = [
   {
     id: 1,
-    image: card1,
-    modalImage: card7,
-    category: "Mobile App",
-    title: "Q-Vin Mobile App",
-    description:
-      "Simplify fleet management and compliance with UseQ-VIN.",
-    modalDescription:
-      "UseQ-VIN empowers you to track, manage, and recover your fleet with ease. From ensuring regulatory compliance to providing instant asset location, it simplifies every aspect of fleet management. Whether you’re focused on improving efficiency, reducing downtime, or keeping your operations secure, UseQ-VIN gives you the visibility and control you need to run your fleet smarter and more effectively.",
-    link: "#!",
-  },
-  {
-    id: 2,
-    image: card2,
-    modalImage: card8,
-    category: "Mobile App",
-    title: "UnionDigital Bank",
-    description:
-      "HASSLE-FREE SECURITY Transact safely and quickly with our biometrics and in-app OTP.",
-    modalDescription: "Enjoy hassle-free security with our advanced system. Every transaction is protected through fast and reliable biometric authentication, combined with in-app one-time passwords (OTP) for an extra layer of safety. With these safeguards, you can transact quickly, confidently, and without worry.",
-    link: "#!",
-  },
-  {
-    id: 3,
     image: card3,
     modalImage: card9,
     category: "Mobile App",
@@ -52,7 +29,7 @@ const projectData = [
     link: "#!",
   },
   {
-    id: 4,
+    id: 2,
     image: card4,
     modalImage: card10,
     category: "Mobile App",
@@ -63,7 +40,7 @@ const projectData = [
     link: "#!",
   },
   {
-    id: 5,
+    id: 3,
     image: card5,
     modalImage: card11,
     category: "Mobile App",
@@ -74,18 +51,7 @@ const projectData = [
     link: "#!",
   },
   {
-    id: 6,
-    image: card6,
-    modalImage: card12,
-    category: "Mobile App",
-    title: "Cebu Pacific Booking App",
-    description:
-      "Fly smarter with the Philippines’ low-cost carrier app.",
-    modalDescription: "A mobile application that allows users to book flights, manage their bookings, and access various travel-related features for the Philippine low-cost carrier.",
-    link: "#!",
-  },
-  {
-    id: 7,
+    id: 4,
     image: card13,
     modalImage: card13,
     category: "Mobile App",
@@ -99,7 +65,7 @@ const projectData = [
   ],
   },
   {
-    id: 8,
+    id: 5,
     image: card14,
     modalImage: card14,
     category: "Mobile App",
@@ -113,7 +79,7 @@ const projectData = [
   ],
   },
   {
-    id: 9,
+    id: 6,
     image: card15,
     modalImage: card15,
     category: "Mobile App",

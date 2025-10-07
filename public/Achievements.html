@@ -195,165 +195,6 @@
 </section>
 
     <section class="media-gallery text-center">
-
-        <div class="certificates-section-title mt-12">
-            <h3 class="text-xl font-semibold mb-6">Seminars & Guest Speaking</h3>
-        </div>
-
-        <!-- Desktop Grid Layout (hidden on mobile) -->
-        <div class="hidden md:grid md:grid-cols-2 gap-8 max-w-6xl mx-auto">
-            <!-- Top Row -->
-            <div class="bg-white rounded-xl shadow-lg cursor-pointer hover:shadow-xl transition-shadow h-64 flex overflow-hidden"
-                 onclick="openModal('../src/assets/images/blog/achievement-2.jpg')">
-                <div class="w-1/2 bg-white text-gray-800 p-6 flex flex-col justify-center">
-                    <h4 class="text-xl font-bold mb-3">Blockchain Technology</h4>
-                    <p class="text-sm font-semibold mb-2 text-[#8B5E3C]">"Blockchain Technology and Crypto Currency"</p>
-                    <p class="text-xs text-[#5C3B25] mb-1">Our Lady of Fatima University</p>
-                    <p class="text-xs text-[#A1887F]">September 24, 2024</p>
-                </div>
-                <div class="w-1/2">
-                    <img src="../src/assets/images/blog/achievement-2.jpg" alt="Blockchain Technology" 
-                         class="w-full h-full object-cover">
-                </div>
-            </div>
-
-            <div class="bg-white rounded-xl shadow-lg cursor-pointer hover:shadow-xl transition-shadow h-64 flex overflow-hidden"
-                 onclick="openModal('../src/assets/images/blog/seminar-1.jpg')">
-                <div class="w-1/2 bg-white text-gray-800 p-6 flex flex-col justify-center">
-                    <h4 class="text-xl font-bold mb-3">Seminar on Code</h4>
-                    <p class="text-sm font-semibold mb-2 text-[#8B5E3C]">"BEYOND THE CODE"</p>
-                    <p class="text-xs text-[#5C3B25] mb-1">Shared knowledge on local events.</p>
-                    <p class="text-xs text-[#A1887F]">August 12, 2025</p>
-                </div>
-                <div class="w-1/2">
-                    <img src="../src/assets/images/blog/seminar-1.jpg" alt="Beyond the Code" 
-                         class="w-full h-full object-cover">
-                </div>
-            </div>
-
-            <!-- Bottom Row -->
-            <div class="bg-white rounded-xl shadow-lg cursor-pointer hover:shadow-xl transition-shadow h-64 flex overflow-hidden"
-                 onclick="openModal('../src/assets/images/blog/seminar-2.jpg')">
-                <div class="w-1/2 bg-white text-gray-800 p-6 flex flex-col justify-center">
-                    <h4 class="text-xl font-bold mb-3">Guest Speaking</h4>
-                    <p class="text-sm font-semibold mb-2 text-[#8B5E3C]">"Mastering Data for Business"</p>
-                    <p class="text-xs text-[#5C3B25] mb-1">Shared knowledge on data analytics.</p>
-                    <p class="text-xs text-[#A1887F]">June 22, 2025</p>
-                </div>
-                <div class="w-1/2">
-                    <img src="../src/assets/images/blog/seminar-2.jpg" alt="Data Analytics" 
-                         class="w-full h-full object-cover">
-                </div>
-            </div>
-
-            <div class="bg-white rounded-xl shadow-lg cursor-pointer hover:shadow-xl transition-shadow h-64 flex overflow-hidden"
-                 onclick="openModal('../src/assets/images/blog/seminar-3.jpg')">
-                <div class="w-1/2 bg-white text-gray-800 p-6 flex flex-col justify-center">
-                    <h4 class="text-xl font-bold mb-3">Technology Seminar</h4>
-                    <p class="text-sm font-semibold mb-2 text-[#8B5E3C]">"Advanced Technology Solutions"</p>
-                    <p class="text-xs text-[#5C3B25] mb-1">FEU Institute of Technology</p>
-                    <p class="text-xs text-[#A1887F]">July 11, 2025</p>
-                </div>
-                <div class="w-1/2">
-                    <img src="../src/assets/images/blog/seminar-3.jpg" alt="Technology Seminar" 
-                         class="w-full h-full object-cover">
-                </div>
-            </div>
-        </div>
-
-        <!-- Mobile Carousel (visible only on mobile) -->
-        <div class="md:hidden relative max-w-6xl mx-auto px-4 mb-8">
-            <div class="carousel-container overflow-hidden">
-                <div class="carousel-track flex transition-transform duration-300 ease-in-out" id="seminarsCarousel">
-                    <!-- Seminar 1 -->
-                    <div class="carousel-slide flex-shrink-0 w-full px-2">
-                        <div class="bg-white rounded-xl shadow-lg cursor-pointer hover:shadow-xl transition-shadow flex flex-col overflow-hidden min-h-[280px]"
-                             onclick="openModal('../src/assets/images/blog/achievement-2.jpg')">
-                            <div class="w-full">
-                                <img src="../src/assets/images/blog/achievement-2.jpg" alt="Blockchain Technology" 
-                                     class="w-full h-48 object-cover">
-                            </div>
-                            <div class="w-full bg-white text-gray-800 p-4 flex flex-col justify-center">
-                                <h4 class="text-lg font-bold mb-2">Blockchain Technology</h4>
-                                <p class="text-sm font-semibold mb-1 text-[#8B5E3C]">"Blockchain Technology and Crypto Currency"</p>
-                                <p class="text-xs text-[#5C3B25] mb-1">Our Lady of Fatima University</p>
-                                <p class="text-xs text-[#A1887F]">September 24, 2024</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Seminar 2 -->
-                    <div class="carousel-slide flex-shrink-0 w-full px-2">
-                        <div class="bg-white rounded-xl shadow-lg cursor-pointer hover:shadow-xl transition-shadow flex flex-col overflow-hidden min-h-[280px]"
-                             onclick="openModal('../src/assets/images/blog/seminar-1.jpg')">
-                            <div class="w-full">
-                                <img src="../src/assets/images/blog/seminar-1.jpg" alt="Beyond the Code" 
-                                     class="w-full h-48 object-cover">
-                            </div>
-                            <div class="w-full bg-white text-gray-800 p-4 flex flex-col justify-center">
-                                <h4 class="text-lg font-bold mb-2">Seminar on Code</h4>
-                                <p class="text-sm font-semibold mb-1 text-[#8B5E3C]">"BEYOND THE CODE"</p>
-                                <p class="text-xs text-[#5C3B25] mb-1">Shared knowledge on local events.</p>
-                                <p class="text-xs text-[#A1887F]">August 12, 2025</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Seminar 3 -->
-                    <div class="carousel-slide flex-shrink-0 w-full px-2">
-                        <div class="bg-white rounded-xl shadow-lg cursor-pointer hover:shadow-xl transition-shadow flex flex-col overflow-hidden min-h-[280px]"
-                             onclick="openModal('../src/assets/images/blog/seminar-2.jpg')">
-                            <div class="w-full">
-                                <img src="../src/assets/images/blog/seminar-2.jpg" alt="Data Analytics" 
-                                     class="w-full h-48 object-cover">
-                            </div>
-                            <div class="w-full bg-white text-gray-800 p-4 flex flex-col justify-center">
-                                <h4 class="text-lg font-bold mb-2">Guest Speaking</h4>
-                                <p class="text-sm font-semibold mb-1 text-[#8B5E3C]">"Mastering Data for Business"</p>
-                                <p class="text-xs text-[#5C3B25] mb-1">Shared knowledge on data analytics.</p>
-                                <p class="text-xs text-[#A1887F]">June 22, 2025</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Seminar 4 -->
-                    <div class="carousel-slide flex-shrink-0 w-full px-2">
-                        <div class="bg-white rounded-xl shadow-lg cursor-pointer hover:shadow-xl transition-shadow flex flex-col overflow-hidden min-h-[280px]"
-                             onclick="openModal('../src/assets/images/blog/seminar-3.jpg')">
-                            <div class="w-full">
-                                <img src="../src/assets/images/blog/seminar-3.jpg" alt="Technology Seminar" 
-                                     class="w-full h-48 object-cover">
-                            </div>
-                            <div class="w-full bg-white text-gray-800 p-4 flex flex-col justify-center">
-                                <h4 class="text-lg font-bold mb-2">Technology Seminar</h4>
-                                <p class="text-sm font-semibold mb-1 text-[#8B5E3C]">"Advanced Technology Solutions"</p>
-                                <p class="text-xs text-[#5C3B25] mb-1">FEU Institute of Technology</p>
-                                <p class="text-xs text-[#A1887F]">July 11, 2025</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Navigation buttons (mobile only) -->
-            <button class="absolute left-2 top-1/2 transform -translate-y-1/2 bg-white bg-opacity-80 hover:bg-opacity-100 rounded-full p-2 shadow-lg transition-all duration-200 z-10"
-                    onclick="moveSeminarsCarousel(-1)">
-                <i class="fas fa-chevron-left text-gray-600"></i>
-            </button>
-            <button class="absolute right-2 top-1/2 transform -translate-y-1/2 bg-white bg-opacity-80 hover:bg-opacity-100 rounded-full p-2 shadow-lg transition-all duration-200 z-10"
-                    onclick="moveSeminarsCarousel(1)">
-                <i class="fas fa-chevron-right text-gray-600"></i>
-            </button>
-
-            <!-- Dots indicator (mobile only) -->
-            <div class="flex justify-center mt-4 space-x-2" id="seminarsIndicators">
-                <button class="w-3 h-3 rounded-full bg-[#8B5E3C] transition-all duration-200" onclick="goToSeminarsSlide(0)"></button>
-                <button class="w-3 h-3 rounded-full bg-gray-300 transition-all duration-200" onclick="goToSeminarsSlide(1)"></button>
-                <button class="w-3 h-3 rounded-full bg-gray-300 transition-all duration-200" onclick="goToSeminarsSlide(2)"></button>
-                <button class="w-3 h-3 rounded-full bg-gray-300 transition-all duration-200" onclick="goToSeminarsSlide(3)"></button>
-            </div>
-        </div>
-
         <div class="certificates-section-title mt-12">
             <h3 class="text-xl font-semibold mb-6">Certifications & Licenses</h3>
         </div>
@@ -362,7 +203,7 @@
         <div class="hidden md:grid md:grid-cols-3 gap-6 max-w-6xl mx-auto">
             <!-- Top Row -->
             <div class="cursor-pointer flex flex-col" onclick="openModal('../src/assets/images/blog/cert1.jpeg')">
-                <img src="../src/assets/images/blog/cert1.jpeg" alt="IBM Consulting GenAI Architect" 
+                <img src="../src/assets/images/blog/cert1.jpeg" alt="Coursera" 
                      class="w-full h-64 object-cover rounded-lg shadow-lg hover:shadow-xl transition-shadow">
                 <div class="bg-white p-4 rounded-lg shadow-md mt-4 flex-1 min-h-[100px]">
                     <p class="font-bold text-gray-800 mb-2 text-sm leading-tight">Google Project Management</p>
@@ -371,7 +212,7 @@
             </div>
 
             <div class="cursor-pointer flex flex-col" onclick="openModal('../src/assets/images/blog/cert2.png')">
-                <img src="../src/assets/images/blog/cert2.png" alt="AWS Cloud Practitioner" 
+                <img src="../src/assets/images/blog/cert2.png" alt="Coursera" 
                      class="w-full h-64 object-cover rounded-lg shadow-lg hover:shadow-xl transition-shadow">
                 <div class="bg-white p-4 rounded-lg shadow-md mt-4 flex-1 min-h-[100px]">
                     <p class="font-bold text-gray-800 mb-2 text-sm leading-tight">Agile Project Management</p>
@@ -380,7 +221,7 @@
             </div>
 
             <div class="cursor-pointer flex flex-col" onclick="openModal('../src/assets/images/blog/cert3.png')">
-                <img src="../src/assets/images/blog/cert3.png" alt="IBM watsonx Essentials" 
+                <img src="../src/assets/images/blog/cert3.png" alt="Coursera" 
                      class="w-full h-64 object-cover rounded-lg shadow-lg hover:shadow-xl transition-shadow">
                 <div class="bg-white p-4 rounded-lg shadow-md mt-4 flex-1 min-h-[100px]">
                     <p class="font-bold text-gray-800 mb-2 text-sm leading-tight">Accelerate Your Job Search with AI</p>
@@ -390,7 +231,7 @@
 
             <!-- Bottom Row -->
             <div class="cursor-pointer flex flex-col" onclick="openModal('../src/assets/images/blog/cert4.png')">
-                <img src="../src/assets/images/blog/cert4.png" alt="IBM Cloud Advanced Architect" 
+                <img src="../src/assets/images/blog/cert4.png" alt="Coursera" 
                      class="w-full h-64 object-cover rounded-lg shadow-lg hover:shadow-xl transition-shadow">
                 <div class="bg-white p-4 rounded-lg shadow-md mt-4 flex-1 min-h-[100px]">
                     <p class="font-bold text-gray-800 mb-2 text-sm leading-tight">Capstone: Applying Project Management in the Real World</p>
@@ -399,7 +240,7 @@
             </div>
 
             <div class="cursor-pointer flex flex-col" onclick="openModal('../src/assets/images/blog/cert5.png')">
-                <img src="../src/assets/images/blog/cert5.png" alt="Agile DevOps" 
+                <img src="../src/assets/images/blog/cert5.png" alt="Coursera" 
                      class="w-full h-64 object-cover rounded-lg shadow-lg hover:shadow-xl transition-shadow">
                 <div class="bg-white p-4 rounded-lg shadow-md mt-4 flex-1 min-h-[100px]">
                     <p class="font-bold text-gray-800 mb-2 text-sm leading-tight">Foundations of Project Management</p>
@@ -408,7 +249,7 @@
             </div>
 
             <div class="cursor-pointer flex flex-col" onclick="openModal('../src/assets/images/blog/cert6.png')">
-                <img src="../src/assets/images/blog/cert6.png" alt="CompTIA Security+" 
+                <img src="../src/assets/images/blog/cert6.png" alt="Coursera" 
                      class="w-full h-64 object-cover rounded-lg shadow-lg hover:shadow-xl transition-shadow">
                 <div class="bg-white p-4 rounded-lg shadow-md mt-4 flex-1 min-h-[100px]">
                     <p class="font-bold text-gray-800 mb-2 text-sm leading-tight">Project Initiation: Starting a Successful Project</p>
@@ -417,7 +258,7 @@
             </div>
 
             <div class="cursor-pointer flex flex-col" onclick="openModal('../src/assets/images/blog/cert7.png')">
-                <img src="../src/assets/images/blog/cert7.png" alt="CompTIA Security+" 
+                <img src="../src/assets/images/blog/cert7.png" alt="Coursera" 
                      class="w-full h-64 object-cover rounded-lg shadow-lg hover:shadow-xl transition-shadow">
                 <div class="bg-white p-4 rounded-lg shadow-md mt-4 flex-1 min-h-[100px]">
                     <p class="font-bold text-gray-800 mb-2 text-sm leading-tight">Project Planning: Putting it all together</p>
@@ -426,121 +267,32 @@
             </div>
 
             <div class="cursor-pointer flex flex-col" onclick="openModal('../src/assets/images/blog/cert8.png')">
-                <img src="../src/assets/images/blog/cert8.png" alt="CompTIA Security+" 
+                <img src="../src/assets/images/blog/cert8.png" alt="Coursera" 
                      class="w-full h-64 object-cover rounded-lg shadow-lg hover:shadow-xl transition-shadow">
                 <div class="bg-white p-4 rounded-lg shadow-md mt-4 flex-1 min-h-[100px]">
                     <p class="font-bold text-gray-800 mb-2 text-sm leading-tight">Lean Six Sigma</p>
                     <p class="text-xs text-gray-600">Issued by White Belt Certification, January 2024</p>
                 </div>
             </div>
-        </div>
 
-        <!-- Mobile Carousel (visible only on mobile) -->
-        <div class="md:hidden relative max-w-6xl mx-auto px-4 mb-8">
-            <div class="carousel-container overflow-hidden">
-                <div class="carousel-track flex transition-transform duration-300 ease-in-out" id="certificatesCarousel">
-                    <!-- Certificate 1 -->
-                    <div class="carousel-slide flex-shrink-0 w-full px-2">
-                        <div class="cursor-pointer flex flex-col bg-white rounded-xl shadow-lg hover:shadow-xl transition-shadow"
-                             onclick="openModal('../src/assets/images/blog/IBM CONSULTING.jpg')">
-                            <img src="../src/assets/images/blog/IBM CONSULTING.jpg" alt="IBM Consulting GenAI Architect" 
-                                 class="w-full h-48 object-cover rounded-t-xl">
-                            <div class="p-4 flex-1">
-                                <p class="font-bold text-gray-800 mb-2 text-sm leading-tight">IBM Consulting - Generative AI - Architect - Experienced</p>
-                                <p class="text-xs text-gray-600">Issued by IBM, Aug 2025</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Certificate 2 -->
-                    <div class="carousel-slide flex-shrink-0 w-full px-2">
-                        <div class="cursor-pointer flex flex-col bg-white rounded-xl shadow-lg hover:shadow-xl transition-shadow"
-                             onclick="openModal('../src/assets/images/blog/AWS CLOUD.jpg')">
-                            <img src="../src/assets/images/blog/AWS CLOUD.jpg" alt="AWS Cloud Practitioner" 
-                                 class="w-full h-48 object-cover rounded-t-xl">
-                            <div class="p-4 flex-1">
-                                <p class="font-bold text-gray-800 mb-2 text-sm leading-tight">AWS Cloud Practitioner</p>
-                                <p class="text-xs text-gray-600">Issued by Udemy, Aug 2025</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Certificate 3 -->
-                    <div class="carousel-slide flex-shrink-0 w-full px-2">
-                        <div class="cursor-pointer flex flex-col bg-white rounded-xl shadow-lg hover:shadow-xl transition-shadow"
-                             onclick="openModal('../src/assets/images/blog/WATSONX.jpg')">
-                            <img src="../src/assets/images/blog/WATSONX.jpg" alt="IBM watsonx Essentials" 
-                                 class="w-full h-48 object-cover rounded-t-xl">
-                            <div class="p-4 flex-1">
-                                <p class="font-bold text-gray-800 mb-2 text-sm leading-tight">IBM watsonx Essentials</p>
-                                <p class="text-xs text-gray-600">Issued by IBM, Jan 2025</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Certificate 4 -->
-                    <div class="carousel-slide flex-shrink-0 w-full px-2">
-                        <div class="cursor-pointer flex flex-col bg-white rounded-xl shadow-lg hover:shadow-xl transition-shadow"
-                             onclick="openModal('../src/assets/images/blog/ARCHITECT CONCEPTS.jpg')">
-                            <img src="../src/assets/images/blog/ARCHITECT CONCEPTS.jpg" alt="IBM Cloud Advanced Architect" 
-                                 class="w-full h-48 object-cover rounded-t-xl">
-                            <div class="p-4 flex-1">
-                                <p class="font-bold text-gray-800 mb-2 text-sm leading-tight">IBM Cloud Advanced Architect Concepts</p>
-                                <p class="text-xs text-gray-600">Issued by IBM, Aug 2025</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Certificate 5 -->
-                    <div class="carousel-slide flex-shrink-0 w-full px-2">
-                        <div class="cursor-pointer flex flex-col bg-white rounded-xl shadow-lg hover:shadow-xl transition-shadow"
-                             onclick="openModal('../src/assets/images/blog/AGILE DEVOPS.jpg')">
-                            <img src="../src/assets/images/blog/AGILE DEVOPS.jpg" alt="Agile DevOps" 
-                                 class="w-full h-48 object-cover rounded-t-xl">
-                            <div class="p-4 flex-1">
-                                <p class="font-bold text-gray-800 mb-2 text-sm leading-tight">Agile DevOps</p>
-                                <p class="text-xs text-gray-600">Issued by IBM, Aug 2025</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Certificate 6 -->
-                    <div class="carousel-slide flex-shrink-0 w-full px-2">
-                        <div class="cursor-pointer flex flex-col bg-white rounded-xl shadow-lg hover:shadow-xl transition-shadow"
-                             onclick="openModal('../src/assets/images/blog/COMPTIA.png')">
-                            <img src="../src/assets/images/blog/COMPTIA.png" alt="CompTIA Security+" 
-                                 class="w-full h-48 object-cover rounded-t-xl">
-                            <div class="p-4 flex-1">
-                                <p class="font-bold text-gray-800 mb-2 text-sm leading-tight">CompTIA Security+</p>
-                                <p class="text-xs text-gray-600">Issued by Erovoutika, Nov 2021</p>
-                            </div>
-                        </div>
-                    </div>
+            <div class="cursor-pointer flex flex-col" onclick="openModal('../src/assets/images/blog/cert10.png')">
+                <img src="../src/assets/images/blog/cert10.png" alt="Coursera" 
+                     class="w-full h-64 object-cover rounded-lg shadow-lg hover:shadow-xl transition-shadow">
+                <div class="bg-white p-4 rounded-lg shadow-md mt-4 flex-1 min-h-[100px]">
+                    <p class="font-bold text-gray-800 mb-2 text-sm leading-tight">Certificate of Language Ability</p>
+                    <p class="text-xs text-gray-600">Issued by Emmersion, March 2023</p>
                 </div>
             </div>
 
-            <!-- Navigation buttons (mobile only) -->
-            <button class="absolute left-2 top-1/2 transform -translate-y-1/2 bg-white bg-opacity-80 hover:bg-opacity-100 rounded-full p-2 shadow-lg transition-all duration-200 z-10"
-                    onclick="moveCertificatesCarousel(-1)">
-                <i class="fas fa-chevron-left text-gray-600"></i>
-            </button>
-            <button class="absolute right-2 top-1/2 transform -translate-y-1/2 bg-white bg-opacity-80 hover:bg-opacity-100 rounded-full p-2 shadow-lg transition-all duration-200 z-10"
-                    onclick="moveCertificatesCarousel(1)">
-                <i class="fas fa-chevron-right text-gray-600"></i>
-            </button>
-
-            <!-- Dots indicator (mobile only) -->
-            <div class="flex justify-center mt-4 space-x-2" id="certificatesIndicators">
-                <button class="w-3 h-3 rounded-full bg-[#8B5E3C] transition-all duration-200" onclick="goToCertificatesSlide(0)"></button>
-                <button class="w-3 h-3 rounded-full bg-gray-300 transition-all duration-200" onclick="goToCertificatesSlide(1)"></button>
-                <button class="w-3 h-3 rounded-full bg-gray-300 transition-all duration-200" onclick="goToCertificatesSlide(2)"></button>
-                <button class="w-3 h-3 rounded-full bg-gray-300 transition-all duration-200" onclick="goToCertificatesSlide(3)"></button>
-                <button class="w-3 h-3 rounded-full bg-gray-300 transition-all duration-200" onclick="goToCertificatesSlide(4)"></button>
-                <button class="w-3 h-3 rounded-full bg-gray-300 transition-all duration-200" onclick="goToCertificatesSlide(5)"></button>
+            <div class="cursor-pointer flex flex-col" onclick="openModal('../src/assets/images/blog/cert9.png')">
+                <img src="../src/assets/images/blog/cert9.png" alt="Coursera" 
+                     class="w-full h-64 object-cover rounded-lg shadow-lg hover:shadow-xl transition-shadow">
+                <div class="bg-white p-4 rounded-lg shadow-md mt-4 flex-1 min-h-[100px]">
+                    <p class="font-bold text-gray-800 mb-2 text-sm leading-tight">Project Management and Leadership 101: Preparing Young Professionals for Leadership Roles in Today's Fast-Changing Environment</p>
+                    <p class="text-xs text-gray-600">Issued by MST Connect, January 2023</p>
+                </div>
             </div>
         </div>
-
-
         </section>
 
   </div>

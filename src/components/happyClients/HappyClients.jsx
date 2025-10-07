@@ -5,6 +5,7 @@ import image2 from '../../assets/PUP.png';
 import image3 from '../../assets/FEU.png';
 import image4 from '../../assets/OLFU.jpg';
 import image5 from '../../assets/PLM.jpg';
+import image6 from '../../assets/STI.png'
 
 const brandLogos = [
   <>
@@ -39,6 +40,13 @@ const brandLogos = [
     <img
       src={image5}
       alt="PLM"
+      className={commonLogoClass}
+    />
+  </>,
+  <>
+    <img
+      src={image6}
+      alt="STI"
       className={commonLogoClass}
     />
   </>,
